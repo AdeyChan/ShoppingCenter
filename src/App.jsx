@@ -4,6 +4,12 @@ import viteLogo from "/vite.svg";
 import Johnnybutton from "./johnnybuttons";
 import { Card } from "./card";
 import { Cart } from "./cart";
+<<<<<<< HEAD
+=======
+import "./App.css";
+import styles from "./my-style.module.css";
+
+>>>>>>> 594c364 (Initial commit)
 function App() {
   const [inventory, setInventory] = useState([
     { id: 1, quantity: 23, name: "Chairs", price: 40 },
@@ -65,9 +71,17 @@ function App() {
   }
   return (
     <>
+<<<<<<< HEAD
       <h1>Website</h1>
       <Cart cart={cart}></Cart>
       <div>Total Price: ${totalPrice.toFixed(2)}</div>
+=======
+      <h1 className={styles.stylist}>Website</h1>
+      <Cart cart={cart}></Cart>
+      <div>
+        <p>Total Price: ${totalPrice.toFixed(2)}</p>
+      </div>
+>>>>>>> 594c364 (Initial commit)
       <div>
         {inventory.map((item, index) => {
           return (
