@@ -1,2 +1,2 @@
 #ShoppingCenter
-<<<< First React Project >>>>
+<<<< First React
